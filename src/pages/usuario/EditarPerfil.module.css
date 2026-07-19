@@ -1,0 +1,118 @@
+
+.editarContainer {
+    width: 90%;
+    max-width: 500px;
+    margin: 60px auto;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--violeta-oscuro);
+}
+
+.editarContainer h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.tarjetaEditar {
+    background-color: var(--blanco-puro);
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.campoFijo {
+    margin-bottom: 15px;
+}
+
+.campoFijo label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.inputDisabled {
+    width: 100%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #999;
+    cursor: not-allowed;
+}
+
+.separador {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 25px 0;
+}
+
+.tarjetaEditar h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupoInput {
+    margin-bottom: 20px;
+}
+
+.grupoInput label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.inputControl {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.inputControl:focus {
+    outline: none;
+    border-color: var(--violeta-oscuro);
+}
+
+.botonGuardar {
+    background-color: var(--violeta-oscuro);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botonGuardar:hover {
+    background-color: var(--violeta-suave);
+}
+
+.exitoMensaje {
+    color: #45b44a;
+    background-color: #e8f5e9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.errorMensaje {
+    color: #d32f2f;
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+}
