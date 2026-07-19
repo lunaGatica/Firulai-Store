@@ -1,0 +1,114 @@
+.contenedorAdmin {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+    background-color: var(--fondo-claro); 
+    font-family: 'Playfair Display', serif;
+}
+
+.cabeceraAdmin {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.fraseInspiracional {
+    color: var(--violeta-oscuro); 
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.subtituloAdmin {
+    color: var(--violeta-suave); 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+}
+
+.seccionFormulario, .seccionTabla {
+    background-color: var(--blanco-puro);
+    padding: 30px;
+    border: 1px solid rgba(20, 20, 48, 0.08);
+    margin-bottom: 40px;
+}
+
+.seccionFormulario h2, .seccionTabla h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--violeta-oscuro);
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(192, 45, 165, 0.1);
+    padding-bottom: 8px;
+}
+
+.contenedorTabla {
+    overflow-x: auto;
+}
+
+.tablaAdmin {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif; 
+    font-size: 0.95rem;
+}
+
+.tablaAdmin th {
+    background-color: rgba(20, 20, 48, 0.03);
+    color: var(--violeta-oscuro);
+    text-align: left;
+    padding: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    border-bottom: 2px solid var(--violeta-oscuro);
+}
+
+.tablaAdmin td {
+    padding: 14px 12px;
+    border-bottom: 1px solid rgba(192, 45, 165, 0.1);
+    color: var(--violeta-oscuro);
+}
+
+.bloqueAcciones {
+    display: flex;
+    gap: 10px;
+}
+
+.botonEditar, .botonEliminar {
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+}
+
+.botonEditar {
+    background-color: transparent;
+    border: 1px solid var(--violeta-oscuro);
+    color: var(--violeta-oscuro);
+}
+
+.botonEditar:hover {
+    background-color: var(--violeta-oscuro);
+    color: var(--fondo-claro);
+}
+
+.botonEliminar {
+    background-color: transparent;
+    border: 1px solid #c94c4c;
+    color: #c94c4c;
+}
+
+.botonEliminar:hover {
+    background-color: #c94c4c;
+    color: white;
+}
+
+.cargando, .vacio {
+    text-align: center;
+    font-style: italic;
+    color: rgba(20, 20, 48, 0.5);
+    padding: 20px 0;
+}

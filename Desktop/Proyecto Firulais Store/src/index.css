@@ -1,0 +1,27 @@
+
+:root {
+    --violeta-oscuro: #2d1b3d;    
+    --violeta-suave: #a78bfa;       
+    --fondo-claro: #faf5ff;        
+    --blanco-puro: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--fondo-claro);
+    color: var(--violeta-oscuro);
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}

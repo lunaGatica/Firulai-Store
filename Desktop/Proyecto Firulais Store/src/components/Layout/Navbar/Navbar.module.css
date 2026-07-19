@@ -1,0 +1,128 @@
+
+.navContenedor {
+    display: flex;
+    align-items: center;
+}
+
+.listaNavegacion {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    align-items: center;
+}
+
+.listaNavegacion li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--violeta-oscuro);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.listaNavegacion li a:hover {
+    color: var(--violeta-suave);
+}
+
+.enlaceLogin {
+    font-weight: 700;
+}
+
+
+.contenedorDropdown {
+    position: relative; 
+}
+
+.botonUsuario {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: var(--violeta-oscuro);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nombreTexto {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize; 
+}
+
+.avatarChiquito {
+    width: 32px;
+    height: 32px;
+    background-color: var(--violeta-oscuro);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.flecha {
+    font-size: 0.7rem;
+    transition: transform 0.3s ease;
+}
+
+.flechaRotada {
+    transform: rotate(180deg); 
+}
+
+.menuDesplegable {
+    position: absolute;
+    top: 120%; 
+    right: 0;  
+    background-color: var(--blanco-puro);
+    min-width: 180px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    list-style: none;
+    padding: 10px 0;
+    z-index: 100; 
+}
+
+.menuDesplegable li a {
+    display: block;
+    padding: 10px 20px;
+    color: var(--violeta-oscuro);
+    text-transform: none; 
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    transition: background-color 0.2s ease;
+}
+
+.menuDesplegable li a:hover {
+    background-color: #f5f5f5;
+    color: var(--violeta-suave);
+}
+
+.separadorMenu {
+    border-top: 1px solid #eee;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.botonSubLogout {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: #c98423; 
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.botonSubLogout:hover {
+    background-color: #ffebee;
+}

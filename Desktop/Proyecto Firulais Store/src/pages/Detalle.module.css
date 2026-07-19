@@ -1,0 +1,21 @@
+.detalleMain {
+    padding: 20px 8%;
+    min-height: 80vh; 
+}
+
+.botonVolver {
+    background-color: var(--violeta-suave);
+    border: 1px solid var(--violeta-oscuro);
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: var(--violeta-oscuro);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.botonVolver:hover {
+    background-color: var(--violeta-oscuro);
+    color: var(--blanco-puro);
+}

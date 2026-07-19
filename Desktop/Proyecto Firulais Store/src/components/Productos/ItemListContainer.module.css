@@ -1,0 +1,40 @@
+.seccionProductos {
+    padding: 60px 5%;
+    background-color: var(--fondo-claro);
+}
+
+.tituloProductos {
+    color: var(--violeta-oscuro);
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contenedorProductos {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr;
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+@media (min-width: 650px) {
+    .contenedorProductos {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contenedorProductos {
+        grid-template-columns: repeat(3, 1fr); 
+        max-width: 1200px;
+        gap: 50px; 
+    }
+}
+
+.mensajeCargando {
+    text-align: center;
+    color: var(--violeta-oscuro);
+}

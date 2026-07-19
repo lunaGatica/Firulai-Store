@@ -1,0 +1,34 @@
+.perfilContainer {
+    width: 90%;
+    max-width: 500px;
+    margin: 60px auto;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--violeta-oscuro);
+}
+
+.perfilContainer h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.tarjetaUsuario {
+    background-color: var(--blanco-puro);
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow: 0 10px 25px rgba(78, 64, 87, 0.05);
+}
+
+.tarjetaUsuario p {
+    margin-bottom: 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.mensajeBienvenida {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    color: var(--violeta-suave);
+    font-weight: 700;
+}

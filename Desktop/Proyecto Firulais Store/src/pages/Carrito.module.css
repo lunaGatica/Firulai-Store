@@ -1,0 +1,172 @@
+.carritoPage {
+    padding: 40px 10%;
+    background-color: var(--blanco-puro);
+    min-height: 80vh;
+}
+
+.carritoPage h2 {
+    color: var(--violeta-oscuro);
+    font-size: 2rem;
+    font-weight: 300; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.itemsContenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.itemCard {
+    display: grid;
+    grid-template-columns: 100px 2fr 1fr 1fr 50px;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(64, 61, 66, 0.05);
+}
+
+.itemCard img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.itemInfo h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--violeta-oscuro);
+}
+
+.cantidadControles {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cantidadControles button {
+    background: #f0f0f0;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cantidadControles button:hover {
+    background: var(--violeta-suave);
+    color: var(--blanco-puro);
+}
+
+.precioUnitario {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 4px;
+}
+
+.subtotal {
+    font-weight: bold;
+    color: var(--violeta-oscuro);
+}
+
+.btnEliminar {
+    background: none;
+    border: none;
+    color: #cc0000;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.btnEliminar:hover {
+    opacity: 1;
+}
+
+.resumen {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid var(--violeta-oscuro);
+    text-align: right;
+}
+
+.acciones {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.btnSeguir {
+    background-color: #f4f4f4;
+    color: var(--violeta-oscuro);
+    border: 1px solid #e0e0e0;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.btnSeguir:hover {
+    background-color: #eaeaea ;
+}
+
+.btnVaciar {
+    background-color: transparent;
+    color: #a34747;
+    border: 1px solid #d9c5c5;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.btnVaciar:hover {
+    background-color: #fff5f5;
+    color: #a34747;
+}
+
+.btnFinalizar {
+    background: var(--violeta-oscuro);
+    color: var(--blanco-puro);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.3s;
+}
+
+.btnFinalizar:hover {
+    background-color: #22224d;
+}
+
+.vacioContainer {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btnVolver {
+    display: inline-block;
+    margin-top: 20px;
+    background: var(--violeta-suave);
+    color: var(--blanco-puro);
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btnVolver:hover {
+    background: var(--violeta-oscuro);
+}

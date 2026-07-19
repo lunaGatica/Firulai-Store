@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid #debddc;
+    background-color: var(--fondo-claro);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    object-fit: contain;
+    transition: height 0.3s ease;
+}
+
+@media (min-width: 768px) {
+
+    .header {
+        padding: 1rem 1.5rem;
+    }
+
+    .logo {
+        height: 75px;
+    }
+
+}
+
+@media (min-width: 993px) {
+
+    .header {
+        padding: 1rem 2rem;
+    }
+
+    .logo {
+        height: 90px;
+    }
+
+}
