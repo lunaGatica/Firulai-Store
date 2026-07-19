@@ -1,0 +1,92 @@
+[
+{
+    "id": "1",
+    "name": "Collar Ajustable para Perro",
+    "price": 7000.00,
+    "description": "Collar de nylon con hebilla segura, ajustable hasta 60 cm.",
+    "category": "Collares",
+    "stock": 25,
+    "image": "https://www.mercadolibre.com.ar/collar-ajustable-para-perros-resistente-duradero/up/MLAU3798386681"
+  },
+  {
+    "id": "2",
+    "name": "Correa Retráctil 5m",
+    "price": 14000.50,
+    "description": "Correa extensible con sistema de freno, ideal para paseos.",
+    "category": "Correas",
+    "stock": 15,
+    "image": "https://www.mercadolibre.com.ar/correa-retractil-flexi-new-classic-m-5-metros-perro-hasta-20-kg-color-rosa/p/MLA25556884"
+  },
+  {
+    "id": "3",
+    "name": "Cama Ortopédica para Mascotas",
+    "price": 95000.00,
+    "description": "Cama con espuma viscoelástica, alivio para articulaciones.",
+    "category": "Camas",
+    "stock": 10,
+    "image": "https://www.mercadolibre.com.ar/cama-ortopedica-para-perros-extra-grande-chixnuggle-sofa-im/up/MLAU3940247444"
+  },
+  {
+    "id": "4",
+    "name": "Juguete de Cuerda Trenzada",
+    "price": 8000.00,
+    "description": "Juguete resistente para morder y tirar, ideal para perros.",
+    "category": "Juguetes",
+    "stock": 30,
+    "image": "https://www.mercadolibre.com.ar/juguete-cuerda-tirador-con-pelota-trenzada-p-perro-mascotas-color/p/MLA63495268"
+  },
+  {
+    "id": "5",
+    "name": "Plato Elevado de Acero Inoxidable",
+    "price": 12000.00,
+    "description": "Comedero doble con base elevada, fácil de limpiar.",
+    "category": "Alimentación",
+    "stock": 20,
+    "image": "https://www.mercadolibre.com.ar/plato-comedero-elevado-para-gatos-acero-inoxidable-premium/up/MLAU3785754825"
+  },
+  {
+    "id": "6",
+    "name": "Arnés de Pecho con Reflectante",
+    "price": 20000.00,
+    "description": "Arnés acolchado con cintas reflectantes para seguridad.",
+    "category": "Arneses",
+    "stock": 12,
+    "image": "https://www.mercadolibre.com.ar/y-safety-harness-for-small-dogs/p/MLA2049379627"
+  },
+  {
+    "id": "7",
+    "name": "Cepillo de Púas para Gatos",
+    "price": 18000.00,
+    "description": "Cepillo suave que elimina el pelo muerto y masajea la piel.",
+    "category": "Higiene",
+    "stock": 18,
+    "image": "https://www.mercadolibre.com.ar/cepillo-peine-de-puas-acero-suave-para-mascotas-gato/p/MLA2065255827?pdp_filters=item_id%3AMLA3464803698"
+  },
+  {
+    "id": "8",
+    "name": "Bebedero Automático con Filtro",
+    "price": 20000.00,
+    "description": "Fuente de agua con filtro de carbón activado, 2.5L.",
+    "category": "Accesorios",
+    "stock": 8,
+    "image": "https://www.mercadolibre.com.ar/bebedero-automatico-para-perros-y-gatos-con-filtro-24-l/up/MLAU4031145581"
+  },
+  {
+    "id": "9",
+    "name": "Rascador de Cartón con Catnip",
+    "price": 50000.00,
+    "description": "Rascador ecológico con forma de onda, incluye catnip.",
+    "category": "Gatos",
+    "stock": 22,
+    "image": "https://www.mercadolibre.com.ar/rascador-gato-carton-corrugado-pethome-con-catnip-marron-48x12x35-cm/p/MLA36253242"
+  },
+  {
+    "id": "10",
+    "name": "Transportín Plegable para Mascotas",
+    "price": 115000.00,
+    "description": "Transportín de tela resistente, plegable y con ventilación.",
+    "category": "Viaje",
+    "stock": 6,
+    "image": "https://www.mercadolibre.com.ar/transportin-plegable-para-mascotas-pequenas-ligero-y-comodo-grey/p/MLA2094179554"
+  }
+]
