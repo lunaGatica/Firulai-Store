@@ -1,0 +1,98 @@
+.nosotrosContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    color: var(--violeta-oscuro);
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.historia {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px;
+}
+
+.historia h1 {
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    font-weight: 300; 
+}
+
+.historia p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.divisor {
+    border: 0;
+    border-top: 1px solid var(--violeta-suave); 
+    width: 80px;
+    margin: 40px auto;
+}
+
+.equipoSeccion h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 2.2rem;
+}
+
+.gridEquipo {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.cardMiembro {
+    background: var(--blanco-puro);
+    padding: 15px;
+    width: 280px;
+    border-radius: 4px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Las rotaciones que querías */
+.foto0 { transform: rotate(-3deg); }
+.foto1 { transform: rotate(2deg); }
+.foto2 { transform: rotate(-1.5deg); }
+
+.cardMiembro:hover {
+    transform: rotate(0deg) scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.contenedorFoto img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.infoMiembro {
+    text-align: left;
+    padding: 10px;
+}
+
+.cargo {
+    display: block;
+    color: var(--violeta-suave);
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 5px 0 10px;
+}
+
+.frase {
+    font-style: italic;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #666;
+    border-left: 2px solid #eee;
+    padding-left: 10px;
+}

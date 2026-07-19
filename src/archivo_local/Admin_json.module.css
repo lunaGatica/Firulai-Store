@@ -1,0 +1,114 @@
+.contenedorAdmin {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+    background-color: var(--fondo-claro); 
+    font-family: 'Playfair Display', serif;
+}
+
+.cabeceraAdmin {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.subtituloAdmin {
+    color: var(--violeta-suave); 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+}
+
+.formularioCarga {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+}
+
+.grupoCampo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.filaDoble {
+    display: flex;
+    gap: 20px; 
+}
+
+.filaDoble .grupoCampo {
+    flex: 1; 
+}
+
+.grupoCampo label {
+    color: var(--violeta-oscuro);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.grupoCampo input,
+.grupoCampo textarea {
+    padding: 12px;
+    border: 1px solid rgba(20, 20, 48, 0.2);
+    background-color: var(--blanco-puro);
+    color: var(--violeta-oscuro);
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.grupoCampo input:focus,
+.grupoCampo textarea:focus {
+    outline: none;
+    border-color: var(--violeta-suave); 
+}
+
+.botonEnviar {
+    background-color: var(--violeta-oscuro); 
+    color: var(--fondo-claro);
+    padding: 15px;
+    border: none;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.botonEnviar:hover {
+    background-color: var(--violeta-suave);
+}
+
+.mensajeExito {
+    text-align: center;
+    color: var(--violeta-suave);
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-top: 15px;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.botonEnviar:disabled {
+    background-color: var(--violeta-suave);
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.formularioCarga input:disabled,
+.formularioCarga textarea:disabled {
+    background-color: rgba(20, 20, 48, 0.03);
+    border-color: rgba(20, 20, 48, 0.1);
+    cursor: not-allowed;
+}
+.grupoCampo input::placeholder,
+.grupoCampo textarea::placeholder {
+    color: var(--violeta-oscuro);
+    opacity: 0.35; 
+    font-size: 0.9rem;
+    font-style: italic; 
+}
